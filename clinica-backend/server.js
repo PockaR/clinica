@@ -21,3 +21,6 @@ app.use('/api/citas', citasRoutes); // protegerá rutas como /api/citas
 
 const usuariosRoutes = require('./routes/usuarios.routes');
 app.use('/api/usuarios', usuariosRoutes);
+
+const disponibilidadRoutes = require('./routes/disponibilidad.routes');
+app.use('/api/disponibilidad', disponibilidadRoutes);
